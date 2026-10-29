@@ -17,6 +17,7 @@ A Streamlit web app that predicts the emotion on a face from an uploaded image o
 ├── app.py                 # Streamlit app
 ├── DL_lap1.ipynb          # Notebook: data loading, training, and evaluation (Google Colab)
 ├── emotion_model.keras    # Trained model used by the app
+├── requirements.txt       # Python dependencies
 └── README.md
 ```
 
@@ -32,7 +33,7 @@ A Streamlit web app that predicts the emotion on a face from an uploaded image o
 ```bash
 git clone <repo-url>
 cd Facial_Emotion_Recognition_App
-pip install streamlit tensorflow keras numpy pandas pillow
+pip install -r requirements.txt
 ```
 
 ### Run the app
